@@ -1,0 +1,107 @@
+
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.container{
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.box{
+    max-width: 500px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    
+}
+ .box img{
+    width: 200px;
+    position: relative;
+    left: -50px;
+    top: 20px;
+}
+
+ #second img{
+    width: 30px;
+    position: relative;
+    left: -150px;
+    
+}
+
+#input{
+    padding: 10px 15px;
+    border-radius: 150px;
+    cursor: pointer;
+}
+#btn{
+    padding: 10px 15px;
+    border-radius: 130px;
+    font-size: 18px;
+    color: rgb(232, 232, 247);
+    background: rgb(68, 68, 240);
+    cursor: pointer;
+}
+#btn:hover{
+    background: rgb(40, 40, 237); 
+}
+#weather-box{
+    position: relative;
+    top: 30px;
+}
+#weather-box p{
+    font-size: 25px;
+    color: rgb(33, 32, 32);
+    position: relative;
+    left: -35px;
+    top: -60px;
+}
+#weather-box #pra{
+    position: relative;
+    top: -80px;
+}
+.humidity img{
+    width: 30px;
+    position: relative;
+    left: -170px;
+    top: -50px;
+}
+.weather-ditail{
+    position: relative;
+    top: 30px;
+}
+.weather-ditail p {
+    position: relative;
+    top: -100px;
+    left: -120px;
+    color: black;
+}
+.weather-ditail span{
+    position: relative;
+    top: -80px;
+    left: -120px;
+    color: black;
+}
+
+.wind img{
+    width: 30px;
+}
+.weather-wind {
+    position: relative;
+    top: -130px;
+    left: 130px;
+    color: black;
+}
+.text #speed {
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+
+.text #pwind{
+    position: relative;
+    top: -35px;
+    left: 10px;
+    
+}

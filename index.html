@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>weatherapp.com</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+   <div class="container">
+      <div class="box">
+        <h1>welcome to weather app</h1>
+        <input type="text" id="input" placeholder="enter your location" autocomplete="off">
+         <button id="btn">search</button>
+            <div id="gp">
+             <img src="weather02-1024.webp" class="weatherimg" alt="">
+              </div>
+              <div id="weather-box">
+                <p class="tempreture">0 <sup>°C</sup></p>
+                <p id="pra">Light Rain</p>
+                </div>
+                <div class="weather-ditail">
+                    <div class="humidity">
+                      <img src="humidity.svg" alt="">
+                       </div>
+                     <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>humidity</p>
+    
+                     </div>
+                </div>
+                <div class="weather-wind">
+                  <div class="wind">
+                     <img src="wind.svg" alt="">
+                  </div>
+                  <div class="text">
+                     <span id="speed">12km/h</span>
+                     <p id="pwind">wind speed</p>
+                  </div>
+                </div>
+        </div>
+    </div> 
+
+
+   <script src="weather.js"></script>
+</body>
+</html>
