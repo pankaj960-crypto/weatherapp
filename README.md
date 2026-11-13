@@ -2,6 +2,13 @@
 
 A simple browser-based weather app that lets you search for a city and view its current weather conditions. It displays the temperature in Celsius, a short weather description, humidity, and wind speed, with an image that changes according to the weather.
 
+## Features
+
+- Search for current weather by city name
+- View temperature in Celsius, weather description, humidity, and wind speed
+- Weather illustration changes based on the returned conditions
+- Lightweight app built with browser-native technologies
+
 ## Technologies used
 
 - **HTML5** for the page structure
@@ -25,3 +32,14 @@ The app needs an OpenWeatherMap API key to retrieve weather data. In `weather.js
 - `weather.js` — city search, API request, and display updates
 - `*.webp`, `*.svg` — weather illustrations and icons
 
+## Screenshot
+
+Add a screenshot of the app here to show its interface:
+
+```md
+![Weather App screenshot](path/to/screenshot.png)
+```
+
+## Live demo
+
+Add a link to the deployed app here when one is available.
