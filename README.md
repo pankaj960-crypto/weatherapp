@@ -40,6 +40,6 @@ Add a screenshot of the app here to show its interface:
 ![Weather App screenshot](path/to/screenshot.png)
 ```
 
-## Live demo
+## Live demo: https://pankaj960-crypto.github.io/weatherapp/
 
 Add a link to the deployed app here when one is available.
